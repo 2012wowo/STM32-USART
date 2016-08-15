@@ -1,0 +1,29 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+D:\Keil\github\STM32\USART\USER\test.uvproj
+Project File Date:  08/15/2016
+
+<h2>Output:</h2>
+Build target 'Target 1'
+linking...
+..\OBJ\test.axf: Error: L6218E: Undefined symbol USART_RX_BUF (referred from test.o).
+..\OBJ\test.axf: Error: L6218E: Undefined symbol USART_RX_STA (referred from test.o).
+..\OBJ\test.axf: Not enough information to list image symbols.
+..\OBJ\test.axf: Finished: 1 information, 0 warning and 2 error messages.
+Target not created
+Build target 'Target 1'
+compiling usart.c...
+compiling test.c...
+test.c(5): error:  #5: cannot open source input file "key.h": No such file or directory
+test.c:   #include "key.h"               
+test.c:                                  ^
+test.c: test.c: 0 warnings, 1 error
+Target not created
+Build target 'Target 1'
+compiling test1.c...
+linking...
+Program Size: Code=3608 RO-data=336 RW-data=12 ZI-data=1700  
+"..\OBJ\test.axf" - 0 Error(s), 0 Warning(s).

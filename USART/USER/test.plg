@@ -1,0 +1,149 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+D:\Keil\github\STM32\USART\USER\test.uvproj
+Project File Date:  08/15/2016
+
+<h2>Output:</h2>
+Build target 'Target 1'
+assembling startup_stm32f10x_hd.s...
+compiling sys.c...
+compiling usart.c...
+..\SYSTEM\usart\usart.c(1): error:  #5: cannot open source input file "sys.h": No such file or directory
+..\SYSTEM\usart\usart.c:   #include "sys.h"
+..\SYSTEM\usart\usart.c:                   ^
+..\SYSTEM\usart\usart.c: ..\SYSTEM\usart\usart.c: 0 warnings, 1 error
+compiling delay.c...
+compiling test.c...
+test.c(1): error:  #5: cannot open source input file "sys.h": No such file or directory
+test.c:   # include "sys.h"
+test.c:                    ^
+test.c: test.c: 0 warnings, 1 error
+compiling led.c...
+..\HARDWARE\LED\led.h(3): error:  #5: cannot open source input file "sys.h": No such file or directory
+..\HARDWARE\LED\led.h:   # include "sys.h"
+..\HARDWARE\LED\led.h:                    ^
+..\HARDWARE\LED\led.h: ..\HARDWARE\LED\led.c: 0 warnings, 1 error
+Target not created
+Build target 'Target 1'
+compiling sys.c...
+compiling usart.c...
+compiling delay.c...
+compiling test.c...
+test.c(9): warning:  #223-D: function "uart" declared implicitly
+test.c:         uart(72,9600)
+test.c:         ^
+test.c(10): error:  #65: expected a ";"
+test.c:         delay_init(72);
+test.c:         ^
+test.c(20): error:  #20: identifier "USART" is undefined
+test.c:                                 USART->DR=USART_RX_BUF[t];
+test.c:                                 ^
+test.c: test.c: 1 warning, 2 errors
+compiling led.c...
+..\HARDWARE\LED\led.c(10): warning:  #1-D: last line of file ends without a newline
+..\HARDWARE\LED\led.c:   }
+..\HARDWARE\LED\led.c:    ^
+..\HARDWARE\LED\led.c: ..\HARDWARE\LED\led.c: 1 warning, 0 errors
+Target not created
+Build target 'Target 1'
+compiling test.c...
+test.c(9): warning:  #223-D: function "usart" declared implicitly
+test.c:         usart(72,9600)
+test.c:         ^
+test.c(10): error:  #65: expected a ";"
+test.c:         delay_init(72);
+test.c:         ^
+test.c(20): error:  #20: identifier "USART" is undefined
+test.c:                                 USART->DR=USART_RX_BUF[t];
+test.c:                                 ^
+test.c: test.c: 1 warning, 2 errors
+Target not created
+Build target 'Target 1'
+compiling test.c...
+test.c(10): error:  #65: expected a ";"
+test.c:         delay_init(72);
+test.c:         ^
+test.c(20): error:  #20: identifier "USART" is undefined
+test.c:                                 USART->DR=USART_RX_BUF[t];
+test.c:                                 ^
+test.c: test.c: 0 warnings, 2 errors
+Target not created
+Build target 'Target 1'
+assembling startup_stm32f10x_hd.s...
+compiling sys.c...
+compiling usart.c...
+compiling delay.c...
+compiling test.c...
+test.c(20): error:  #20: identifier "USART" is undefined
+test.c:                                 USART->DR=USART_RX_BUF[t];
+test.c:                                 ^
+test.c: test.c: 0 warnings, 1 error
+compiling led.c...
+..\HARDWARE\LED\led.c(10): warning:  #1-D: last line of file ends without a newline
+..\HARDWARE\LED\led.c:   }
+..\HARDWARE\LED\led.c:    ^
+..\HARDWARE\LED\led.c: ..\HARDWARE\LED\led.c: 1 warning, 0 errors
+Target not created
+Build target 'Target 1'
+compiling test.c...
+linking...
+..\OBJ\test.axf: Error: L6218E: Undefined symbol USART_RX_BUF (referred from test.o).
+..\OBJ\test.axf: Error: L6218E: Undefined symbol USART_RX_STA (referred from test.o).
+..\OBJ\test.axf: Not enough information to list image symbols.
+..\OBJ\test.axf: Finished: 1 information, 0 warning and 2 error messages.
+Target not created
+Build target 'Target 1'
+linking...
+..\OBJ\test.axf: Error: L6218E: Undefined symbol USART_RX_BUF (referred from test.o).
+..\OBJ\test.axf: Error: L6218E: Undefined symbol USART_RX_STA (referred from test.o).
+..\OBJ\test.axf: Not enough information to list image symbols.
+..\OBJ\test.axf: Finished: 1 information, 0 warning and 2 error messages.
+Target not created
+Build target 'Target 1'
+linking...
+..\OBJ\test.axf: Error: L6218E: Undefined symbol USART_RX_BUF (referred from test.o).
+..\OBJ\test.axf: Error: L6218E: Undefined symbol USART_RX_STA (referred from test.o).
+..\OBJ\test.axf: Not enough information to list image symbols.
+..\OBJ\test.axf: Finished: 1 information, 0 warning and 2 error messages.
+Target not created
+Build target 'Target 1'
+assembling startup_stm32f10x_hd.s...
+compiling sys.c...
+compiling usart.c...
+compiling delay.c...
+compiling test.c...
+compiling led.c...
+..\HARDWARE\LED\led.c(10): warning:  #1-D: last line of file ends without a newline
+..\HARDWARE\LED\led.c:   }
+..\HARDWARE\LED\led.c:    ^
+..\HARDWARE\LED\led.c: ..\HARDWARE\LED\led.c: 1 warning, 0 errors
+linking...
+..\OBJ\test.axf: Error: L6218E: Undefined symbol USART_RX_BUF (referred from test.o).
+..\OBJ\test.axf: Error: L6218E: Undefined symbol USART_RX_STA (referred from test.o).
+..\OBJ\test.axf: Not enough information to list image symbols.
+..\OBJ\test.axf: Finished: 1 information, 0 warning and 2 error messages.
+Target not created
+Build target 'Target 1'
+compiling led.c...
+linking...
+..\OBJ\test.axf: Error: L6218E: Undefined symbol USART_RX_BUF (referred from test.o).
+..\OBJ\test.axf: Error: L6218E: Undefined symbol USART_RX_STA (referred from test.o).
+..\OBJ\test.axf: Not enough information to list image symbols.
+..\OBJ\test.axf: Finished: 1 information, 0 warning and 2 error messages.
+Target not created
+Build target 'Target 1'
+assembling startup_stm32f10x_hd.s...
+compiling sys.c...
+compiling usart.c...
+compiling delay.c...
+compiling test.c...
+compiling led.c...
+linking...
+..\OBJ\test.axf: Error: L6218E: Undefined symbol USART_RX_BUF (referred from test.o).
+..\OBJ\test.axf: Error: L6218E: Undefined symbol USART_RX_STA (referred from test.o).
+..\OBJ\test.axf: Not enough information to list image symbols.
+..\OBJ\test.axf: Finished: 1 information, 0 warning and 2 error messages.
+Target not created
